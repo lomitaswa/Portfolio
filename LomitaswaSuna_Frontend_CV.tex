@@ -1,0 +1,123 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{fontawesome5}
+
+\newcommand{\myline}{\par
+  \kern3pt % space above the rules
+  \hrule height 1.5pt
+  \kern2pt % space between the rules
+  \hrule height 0.8pt
+  \kern3pt % space below the rules
+}
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Lomitaswa Suna} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{ \faIcon{mobile-alt} +91 7064 187 517  $\vert$  \faIcon{map-marker-alt} Bangalore, KA} 
+
+
+\begin{document}
+\vspace{3ex} 
+\centerline {\href{https://linkedin.com/in/lomitaswa/}{\faIcon{linkedin}{ lomitaswa}} $\vert$
+\href{https://github.com/lomitaswa/}{\faIcon{github}{ lomitaswa}} $\vert$
+\href{mailto:lomitaswa.suna@hotmail.com}{\faIcon{envelope}{ e-mail}} $\vert$
+\href{https://lomitaswa.me/}{\faIcon{atlas}{ lomitaswa.me}} }
+\vspace{2ex} 
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{OBJECTIVE}
+
+%{Software Engineer with 2+ years of experience in XXX, seeking full-time XXX roles.}
+
+
+%\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Frontend Developer} \hfill Feb 2022 - Present\\
+Educational Initiatives PVT. LTD. \hfill \textit{Bangalore, KA}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Creating educational interactive tools and games using HTML5, CSS3, JavaScript, jQuery.
+     \item Making interactives for MindSpark student application.
+     \item Developed several single and bucket interactives, FLNs and games for MindSpark Math and Science in JavaScript.
+     \item Worked on mobile compatibility of existing interactives, enrichments and games.
+     \item Developed several productivity tools for SMEs.
+     \item Migrated git repository from AWS CodeCommit to BitBucket.
+     \item Interviewed few candidates for front-end role.
+    %\item Developed XYZ that did A, B, and C using X, Y, and Z. 
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+% \vspace{-3em}
+\textbf{Point4875.com} \hfill Apr 2020 - May 2020\\
+Prepare for SSB WAT (Word Association Test)
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Point 4875 is an initiative to provide the first of its kind digital platform for the preparation of WAT in SSB interview.
+     \item The front-end is built using Vue.js and Nuxt.js. The back-end is powered by Node.js, Express.js and MongoDB Atlas. For server and reverse proxy NGINX is used.
+     \item For user authentication we have used Google O-Auth 2.0 Strategy.
+     \item The web app is hosted on an AWS EC2 instance.
+    %\item Developed XYZ that did A, B, and C using X, Y, and Z. 
+ \end{itemize}
+ \href{https://point4875.com/}{(Project Link)}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	SKILL SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS (Active)}
+
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & : JavaScript, Java\\
+Web Technologies & : HTML5, CSS3\\
+Frameworks & : Node.js, jQuery, Mongoose ODM, JEST, React.js, Bootstrap, EJS, Axios, Passport.js\\
+Tools & : Git, Linux, AWS EC2, GitHub, Postman\\
+Database & : MongoDB\\
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{SKILLS (Familiar)}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages &: C, C++\\
+Database  &: MySQL\\
+Platform  &: Docker, AWS\\    
+ %Other entries ....
+\end{tabular}\\  
+        
+        
+  
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Technology}, Sambalpur University Institute Of Information Technology\hfill {2016 - 2020}\\
+\vspace{3cm} Graduated in Computer Science and Engineering
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+\end{document}
